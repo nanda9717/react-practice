@@ -5,6 +5,8 @@ import Contact from './pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout/Layout';
 import NoPage from './pages/NoPage';
+import Learning from './pages/Learning'
+import Detail from './pages/Learning/Detail'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
                 <Route index exact element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/learning" element={<Learning />} />
+                <Route path="/learning/:topic" element={<Detail />} />
                 <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>

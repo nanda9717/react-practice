@@ -95,13 +95,42 @@ nav li a:hover,a.active{
 }
 .content{
   min-height: 83vh;
+  width: 90%;
+  margin: 0 auto;
 }
-.content div{
+.content .text-center{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 38%;
   font-size: 25px;
   font-weight: 600;
+}
+.learning-page h2{
+  margin: 10px 0px;
+}
+.compDiv{
+  margin-top: 15px;
+}
+.compDiv h2{
+  margin-top: 10px;
+}
+.backBtn{
+  background-color: #008c83;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 4px 12px 6px 12px;
+  border-radius: 3px;
+}
+.displayCode{
+  background: #b8b8b8;
+  padding: 10px 10px 12px 10px;
+}
+.code{
+  color:#074feb;
+}
+.divider{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .footer{
   height: 40px;

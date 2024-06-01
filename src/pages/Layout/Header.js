@@ -14,9 +14,10 @@ export default function Header() {
             <nav className='menu'>
                 <input type="checkbox" id="check" />
                 <ul id='menu-list'>
-                    <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
-                    <li><NavLink activeClassName="active" to="/about">About</NavLink></li>
-                    <li><NavLink activeClassName="active" to="/contact">Contact</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/">Home</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/about">About</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/contact">Contact</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/learning">Learning</NavLink></li>
                 </ul>
             </nav>
             <div className='login-btns'>
