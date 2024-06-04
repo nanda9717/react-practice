@@ -10,6 +10,9 @@ export default function Index() {
                 <Link to="/learning/timer">Timer</Link>
             </li>
             <li>
+                <Link to="/learning/sorting">Sorting Task</Link>
+            </li>
+            <li>
                 <Link to="/learning/useState">useState Hook</Link>
             </li>
             <li>
