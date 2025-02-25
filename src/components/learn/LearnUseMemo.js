@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import ExpensiveComponent from './ExpensiveUseMemo';
 
 export default function LearnUseMemo() {
     const [add, setAdd] = useState(1);
@@ -38,6 +39,7 @@ export default function LearnUseMemo() {
                     <span>{minus}</span>
                     <button onClick={()=>setMinus(minus-1)}>Minus</button>
                 </div>
+                <ExpensiveComponent items={["Delhi","Noida","Pune","Mumbai","Aligarh","Mathura"]} />
             </div>
     )
 }

@@ -21,8 +21,10 @@ export default function Header() {
                 </ul>
             </nav>
             <div className='login-btns'>
-                <button className='login-btn'>Login</button>
-                <button className='signup-btn'>Sign Up</button>
+                <ul className='auth-btn'>
+                    <li className="login-btn"><NavLink to="/login">Login</NavLink></li>
+                    <li className="signup-btn"><NavLink to="/">Sign Up</NavLink></li>
+                </ul>
             </div>
         </header>
     </div>
